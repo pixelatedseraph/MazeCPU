@@ -81,7 +81,7 @@ void cpu_reset(CPU* cpuInstance,PhysicalMemory* memory){
 }
 
 void cpu_fetch(){
-    
+
 }
 
 void cpu_execute(CPU* cpuInstance,PhysicalMemory* memory,uint64_t cycles){
