@@ -5,9 +5,13 @@
 #include<stdarg.h>
 
 /*
-Copyright 
-    Mazeed A. (2026)
-*/
+ *  main.c 
+ *
+ *  Entry point for the MazeCPU 6502 emulator
+ *
+ * Author: Mazeed A.
+ * SPDX-License-Identifier: GPLv3
+ */
 
 //Functions    -> snake_case
 //Types        -> PascalCase
