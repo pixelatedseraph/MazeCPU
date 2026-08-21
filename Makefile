@@ -2,7 +2,7 @@ CC = gcc
 CSTANDARD = -std=gnu23
 CFLAGS = -Wall -Wextra -Wpedantic -Werror
 
-DEBUGFLAGS = -g -Og -00 
+DEBUGFLAGS = -g -Og -O0 
 DSAN = -fsanitize=address,leak,undefined
 
 RELEASEFLAGS = -O3 -flto=auto -march=native -mtune=native -funroll-loops -fomit-frame-pointer -fno-plt
@@ -22,4 +22,5 @@ release: $(SRC)
 run: $(EXE)
 	./$(EXE)
 
-clean : rm $(EXE)
+clean: $(EXE)
+	rm $(EXE)
